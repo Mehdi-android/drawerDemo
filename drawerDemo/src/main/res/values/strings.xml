@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DrawerDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="flights">Flights</string>
+    <string name="hotels">Hotels</string>
+    <string name="bookings">My Bookings</string>
+    <string name="font_normal">app_normal.ttf</string>
+    <string name="font_bold">app_bolder.ttf</string>
+    <string name="connection">Internet Connection Not Available</string>
+    <string name="loading">Loading...</string>
+
+<!--SEARCH FLIGHT-->
+
+    <string name="from">FROM</string>
+    <string name="to">TO</string>
+    <string name="airport_or_city">Airport or City</string>
+    <string name="departing">DEPARTING</string>
+    <string name="returning">RETURNING</string>
+    <string name="passenger">PASSENGERS</string>
+    <string name="departure">DEPARTURE</string>
+    <string name="arrival">ARRIVAL</string>
+
+    <string name="adults">Adults</string>
+    <string name="adults_years">12+ years </string>
+    <string name="children">Children</string>
+    <string name="children_years">2-11 years </string>
+    <string name="infant">Infant</string>
+    <string name="infant_years">0-2 years </string>
+
+    <!--SEARCH LOCATION-->
+    <string name="type_city">Type city or airport destination</string>
+    <string name="search_city">Search airport or City</string>
+    <string name="popular_flight_routes">10 Popular Flight Routes:</string>
+
+    <!--SEARCh RESULT-->
+    <string name="flight_date">26 DEC</string>
+    <string name="passenger_number">1 ADULT-CHEAPEST FARE</string>
+    <string name="modify_search">Modify Search</string>
+    <string name="cheap">CHEAPEST</string>
+    <string name="quick">QUICKEST</string>
+    <string name="early">EARLIEST</string>
+    <string name="curreny_name">IDR</string>
+    <string name="currency_value">22,530</string>
+    <string name="currency_value_2">800</string>
+    <string name="flight_time">05:45</string>
+    <string name="direct_flight">direct</string>
+    <string name="flight">Flight</string>
+    <string name="route">Route</string>
+    <string name="duration">Duration</string>
+    <string name="check_in_luggage">Check-in Luggage</string>
+    <string name="departing_flight">DEPARTING FLIGHT</string>
+    <string name="price">PRICE:</string>
+    <string name="taxes_included">All taxes included</string>
+
+
+
+</resources>

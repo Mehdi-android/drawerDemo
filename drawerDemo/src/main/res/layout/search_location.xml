@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding_10">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.com.nusatrip.view.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_city"
+            style="@style/SearchLocation"
+            app:customFont="@string/font_normal"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/search_location_border"
+
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/clearable_button_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_search_category_default" />
+
+
+        <EditText
+            android:id="@+id/clearable_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/clearable_button_"
+            android:hint="@string/search_city"
+            android:textColor="@color/grey"
+            android:textStyle="bold" />
+
+
+
+        <ImageView
+            android:id="@+id/clearable_button_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/search_location_cross" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_1">
+        <com.com.nusatrip.view.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/popular_flight_routes"
+            app:customFont="@string/font_normal"
+            style="@style/SearchLocation"/>
+
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_list_flight_location">
+
+        </ListView>
+
+
+
+</LinearLayout>
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="9dp"-->
+    <!--android:padding="5dp">-->
+    <!--<ImageView-->
+
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="2"-->
+    <!--android:layout_gravity="left|center_vertical"-->
+    <!--android:background="@drawable/search_location_cross" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/calc_txt_Prise"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:inputType="numberDecimal"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:textColor="@color/grey"-->
+    <!--android:textStyle="bold"-->
+    <!--android:hint="Search airport or City.."-->
+    <!--android:singleLine="true" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/calc_clear_txt_Prise"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_gravity="right|center_vertical"-->
+    <!--android:background="@drawable/search_location_cross" />-->
+
+    <!--</FrameLayout>-->
+
+
+</LinearLayout>

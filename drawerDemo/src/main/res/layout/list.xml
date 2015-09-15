@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/menuTitleTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menuitem_normal"
+        android:text="Nusa Trip" />
+
+    <TextView
+        android:id="@+id/menuGenderTimer"
+        style="@style/menuTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Flights" />
+
+    <TextView
+        android:id="@+id/menuGenderTypes"
+        style="@style/menuTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hotels" />
+
+    <TextView
+        android:id="@+id/menuResults"
+        style="@style/menuTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="My Bookings" />
+
+    <!--<TextView
+        android:id="@+id/menuAbout"
+        style="@style/menuTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu_about" />
+
+    <TextView
+        android:id="@+id/menuContacts"
+        style="@style/menuTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu_contacts" />
+
+    <TextView
+        android:id="@+id/menuLogin"
+        style="@style/menuTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu_login" />-->
+
+</LinearLayout>

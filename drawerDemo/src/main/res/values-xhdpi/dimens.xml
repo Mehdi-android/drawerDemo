@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">80dp</dimen>
+    <dimen name="actionbar_title_size">19sp</dimen>
+
+    <!-- fragments -->
+    <dimen name="fragment_padding">15dp</dimen>
+    <dimen name="margin_top_0">8dp</dimen>
+    <dimen name="margin_top">5dp</dimen>
+    <dimen name="margin_top_1">15dp</dimen>
+    <dimen name="margin_top_2">15dp</dimen>
+    <dimen name="edit_text_size">15dp</dimen>
+    <dimen name="search_text_size">12dp</dimen>
+    <dimen name="header_text_size">17dp</dimen>
+    <dimen name="ratio_text_size_1">30dp</dimen>
+    <dimen name="ratio_text_size_2">20dp</dimen>
+    <dimen name="list_text_size">20sp</dimen>
+    <dimen name="list_text_size_15">15sp</dimen>
+    <dimen name="activity_padding_10">10dp</dimen>
+    <dimen name="search_edit_margin_top">5dp</dimen>
+    <dimen name="airport_name">15sp</dimen>
+    <dimen name="date_searchflight_text">25sp</dimen>
+
+
+</resources>
